@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace FileOrganizer.Models
 {
-    internal class File
+    public class File
     {
+        public string Name { get; set; }
+        public string Path { get; set; }
+        public string Extension { get; set; }
+        public string OriginalPath { get; set; } 
+
     }
 }
